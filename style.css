@@ -1,0 +1,65 @@
+@import url('https://fonts.googleapis.com/css2?family=Crete+Round:ital@1&display=swap');
+
+* {
+    box-sizing: border-box;
+    font-size: 'Crete Round', serif;;
+}
+
+:root{
+    --dark-pink : #F87171;
+    --light-pink : #FCA5A5;
+    --faint-pink: #FECACA;
+}
+
+body {
+    margin: 0;
+    background-color: var(--light-pink);
+}
+
+.container{
+    width: 100%;
+    max-width: 500px;
+    min-height: 200px;
+    padding: 1rem;
+    margin: auto;
+    margin-top: 5rem;
+    text-align: center;
+}
+
+h1 {
+    margin: 4rem 0rem 4rem 0rem;
+}
+
+label{
+    font-size: 1.5rem;
+    padding-top: 2rem;
+    font-weight: bold;
+}
+
+input {
+    width: 100%;
+    padding: 0.5rem;
+    margin: 1.5rem 0rem 1.5rem 0rem;
+    border-radius: 5%;
+    background-color: var(--faint-pink);
+    font-size: 1rem;
+}
+
+#check {
+    width: 100%;
+    padding: 0.5rem;
+    border-radius: 5%;
+    font-weight: bold;
+    font-size: 1rem;
+    background-color: var(--faint-pink);
+    cursor: pointer;
+}
+
+#check:hover{
+    background-color: var(--dark-pink);
+}
+
+#output-box {
+    margin: 2rem;
+    font-size: 1.5rem;
+}
